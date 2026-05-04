@@ -16,7 +16,7 @@ COPY . .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Koyeb default port 8080 use karta hai
-EXPOSE 8080
+EXPOSE 8000
 
 # App ko start karne ki command
 CMD ["python", "app.py"]
